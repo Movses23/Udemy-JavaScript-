@@ -82,18 +82,18 @@
 
 //console.log (4 + +"5");
 
-let incr = 10,
-    decr = 10;
+//let incr = 10,
+    //decr = 10;
 
     //incr ++;
     //decr --;
 
-console.log(incr++);
-console.log(decr--);
+//console.log(incr++);
+//console.log(decr--);
 
-console.log(5%2);
+//console.log(5%2);
 
-console.log (2+2*4 === 8);
+//console.log (2+2*4 === 8);
 
 //const isCheked = true;
        //isClose = false;
@@ -105,3 +105,23 @@ console.log (2+2*4 === 8);
 
 //console.log (isCheked || !isClose);
 
+
+const number0films = prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB = {
+    count:number0films,
+    movies: {},
+    actors: '',
+ genres: [],
+ private: false,
+};
+
+const  a = prompt('Один из последних просмотренных фильмов?', ''),
+       b = prompt('На сколько оцените его?', ''),
+       c = prompt('Один из последних просмотренных фильмов?', ''),
+       d = prompt('На сколько оцените его?', '');
+
+personalMovieDB.movies [a] = b;
+personalMovieDB.movies [c] = d;
+
+console.log(personalMovieDB);
